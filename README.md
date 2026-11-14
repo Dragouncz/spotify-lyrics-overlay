@@ -6,12 +6,18 @@
 
 [![Download](https://img.shields.io/badge/⬇_Download-Windows_installer-1DB954?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest)
 
-![Presets](screenshots/app-1.png)
-![Settings](screenshots/app-2.png)
-![Positions](screenshots/app-3.png)
+<h3>⚙️ Ukázka nastavení</h3>
+<p align="center">
+  <img src="screenshots/app-1.png" width="32%" alt="Presets" />
+  <img src="screenshots/app-2.png" width="32%" alt="Appearance" />
+  <img src="screenshots/app-3.png" width="32%" alt="Position" />
+</p>
 
-![Desktop Overlay](screenshots/desktop-view.png)
-![Minecraft Overlay](screenshots/miencraft-view.png)
+<h3>🎮 Ukázka ve hře</h3>
+<p align="center">
+  <img src="screenshots/desktop-view.png" width="38%" alt="Desktop Overlay" />
+  <img src="screenshots/miencraft-view.png" width="38%" alt="Minecraft Overlay" />
+</p>
 
 
 </div>
