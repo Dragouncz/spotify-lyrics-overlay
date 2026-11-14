@@ -4,6 +4,14 @@
 
 **Live, synced lyrics of your Spotify song, floating on top of your games, videos and desktop.**
 
+[![Download](https://img.shields.io/badge/⬇_Download-Windows_installer-1DB954?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest)
+
+![Presets](screenshots/app-1.png)
+![Settings](screenshots/app-2.png)
+![Positions](screenshots/app-3.png)
+
+![Desktop Overlay](desktop-view.png)
+![Minecraft Overlay](miencraft-view.png)
 
 
 </div>
