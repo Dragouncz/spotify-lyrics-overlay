@@ -8,9 +8,9 @@ Live, synced lyrics of the song you're playing on Spotify, floating on top of yo
 
 ### Ukázka nastavení
 <p align="center">
-  <img src="screenshots/app-1.png" width="35%" alt="Presets" />
-  <img src="screenshots/app-2.png" width="35%" alt="Appearance" />
-  <img src="screenshots/app-3.png" width="35%" alt="Position" />
+  <img src="screenshots/app-1.png" width="32%" alt="Presets" />
+  <img src="screenshots/app-2.png" width="32%" alt="Appearance" />
+  <img src="screenshots/app-3.png" width="32%" alt="Position" />
 </p>
 
 ### Ukázka ve hře
