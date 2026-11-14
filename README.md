@@ -6,14 +6,14 @@ Live, synced lyrics of the song you're playing on Spotify, floating on top of yo
 
 [![Download](https://img.shields.io/badge/Download-Windows_installer-1DB954?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest)
 
-### Ukázka nastavení
+### Settings Overview
 <p align="center">
   <img src="screenshots/app-1.png" width="32%" alt="Presets" />
   <img src="screenshots/app-2.png" width="32%" alt="Appearance" />
   <img src="screenshots/app-3.png" width="32%" alt="Position" />
 </p>
 
-### Ukázka ve hře
+### In-Action Previews
 <p align="center">
   <img src="screenshots/desktop-view.png" width="38%" alt="Desktop Overlay" />
   <img src="screenshots/miencraft-view.png" width="43%" alt="Minecraft Overlay" />
