@@ -10,8 +10,8 @@
 ![Settings](screenshots/app-2.png)
 ![Positions](screenshots/app-3.png)
 
-![Desktop Overlay](desktop-view.png)
-![Minecraft Overlay](miencraft-view.png)
+![Desktop Overlay](screenshots/desktop-view.png)
+![Minecraft Overlay](screenshots/miencraft-view.png)
 
 
 </div>
