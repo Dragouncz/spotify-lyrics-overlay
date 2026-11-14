@@ -40,6 +40,7 @@ A transparent window that sits **on top of everything** and shows the lyrics of 
 
 > **Windows shows a blue "protected your PC" warning?**
 > The installer isn't code-signed (certificates cost money). Click **More info → Run anyway**.
+> Proof: [VirusTotal](https://www.virustotal.com/gui/file/7050efd5c69dad3b31466ecac844663adb6c9ded75322dfbcd9acc1d7a7aba83/detection)
 
 ## 🔑 First-time setup (2 minutes, only once)
 
