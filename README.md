@@ -1,84 +1,77 @@
 <div align="center">
 
-# 🎵 Spotify Lyrics Overlay
+# Spotify Lyrics Overlay
 
-**Live, synced lyrics of your Spotify song, floating on top of your games, videos and desktop.**
+Live, synced lyrics of the song you're playing on Spotify, floating on top of your games, videos and desktop.
 
-[![Download](https://img.shields.io/badge/⬇_Download-Windows_installer-1DB954?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest)
+[![Download](https://img.shields.io/badge/Download-Windows_installer-1DB954?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest)
 
-<h3>⚙️ Ukázka nastavení</h3>
+### Ukázka nastavení
 <p align="center">
   <img src="screenshots/app-1.png" width="32%" alt="Presets" />
   <img src="screenshots/app-2.png" width="32%" alt="Appearance" />
   <img src="screenshots/app-3.png" width="32%" alt="Position" />
 </p>
 
-<h3>🎮 Ukázka ve hře</h3>
+### Ukázka ve hře
 <p align="center">
   <img src="screenshots/desktop-view.png" width="38%" alt="Desktop Overlay" />
   <img src="screenshots/miencraft-view.png" width="38%" alt="Minecraft Overlay" />
 </p>
 
-
 </div>
-
-<!-- Add screenshots here, for example:
-<p align="center"><img src="screenshots/overlay.png" width="720"></p>
--->
 
 ---
 
-## ✨ What is it?
+## What is it?
 
-A transparent window that sits **on top of everything** and shows the lyrics of the song you're playing in Spotify, line by line, in perfect sync. You can click right through it, so it never gets in your way while you play, watch or work.
+It's a transparent window that stays on top of everything and shows the lyrics of the song you're playing in Spotify, line by line, in sync. You can click straight through it, so it doesn't get in the way when you play, watch something or work.
 
-## 🚀 Features
+## Features
 
-| | |
-|---|---|
-| 🪟 **Click-through overlay** | Always on top. Unlock to move and resize, lock to ignore clicks. |
-| 🎛️ **Presets** | Save position, size and look. One for games, one for movies, one for the desktop. |
-| 🤖 **Auto-switching** | Presets switch by themselves depending on the active window (game, browser tab, desktop). |
-| 🎨 **Fully customizable** | Colors, outline, font, size, alignment, 1 / 3 / 5 lines, opacity, background box. |
-| 🔤 **Your own fonts** | Import any TTF, OTF, WOFF or WOFF2 font. |
-| 🎬 **14 animations** | Fade, slides, zoom, pop, blur, bounce, flip, flash, typewriter, scroll… |
-| ⏱️ **Sync adjustment** | Lyrics too early or late? Nudge them with a hotkey. |
-| 🌍 **10 languages** | English, Čeština, Slovenčina, Deutsch, Русский, 中文, Español, Français, Bahasa Indonesia, 日本語 |
-| 🧭 **First-run guide** | Walks you through setup step by step. |
+- **Click-through overlay.** Always on top. Unlock it to move and resize, lock it to ignore clicks.
+- **Presets.** Save the position, size and look. Make one for games, one for movies, one for the desktop.
+- **Auto-switching.** Presets change on their own depending on the active window (a game, a browser tab, the desktop).
+- **Customizable look.** Colors, outline, font, size, alignment, 1 / 3 / 5 lines, opacity and a background box.
+- **Your own fonts.** Import any TTF, OTF, WOFF or WOFF2 font.
+- **14 animations.** Fade, slides, zoom, pop, blur, bounce, flip, flash, typewriter, scroll and more.
+- **Sync adjustment.** If the lyrics come too early or too late, nudge them with a hotkey.
+- **10 languages.** English, Čeština, Slovenčina, Deutsch, Русский, 中文, Español, Français, Bahasa Indonesia, 日本語.
+- **First-run guide.** Takes you through the setup step by step.
 
-## 📥 Install
+## Install
 
-1. Go to the **[Releases page](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest)** and download `Spotify-Lyrics-Overlay-Setup-x.x.x.exe`.
-2. Run it. The app installs and starts by itself, and adds a desktop shortcut.
+1. Go to the [Releases page](https://github.com/Dragouncz/spotify-lyrics-overlay/releases/latest) and download `Spotify-Lyrics-Overlay-Setup-x.x.x.exe`.
+2. Run it. The app installs, starts on its own and adds a desktop shortcut.
 3. Follow the guide that opens (details below).
 
 > **Windows shows a blue "protected your PC" warning?**
-> The installer isn't code-signed (certificates cost money). Click **More info → Run anyway**.
-> Proof: [VirusTotal](https://www.virustotal.com/gui/file/7050efd5c69dad3b31466ecac844663adb6c9ded75322dfbcd9acc1d7a7aba83/detection)
+> The installer isn't code-signed, since certificates cost money. Click **More info**, then **Run anyway**.
+> Here's the [VirusTotal report](https://www.virustotal.com/gui/file/7050efd5c69dad3b31466ecac844663adb6c9ded75322dfbcd9acc1d7a7aba83/detection) if you want to check.
 
-## 🔑 First-time setup (2 minutes, only once)
+## First-time setup
 
-Spotify requires every app to have its own free **Client ID**. The in-app guide walks you through it, and here are the same steps:
+Takes about 2 minutes and you only do it once. Spotify requires every app to have its own free Client ID. The in-app guide walks you through it, and these are the same steps:
 
 1. Open the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard), log in and click **Create app**.
-2. Name and description can be anything.
-3. In **Redirect URI** paste this exactly and click **Add**:
+2. The name and description can be anything.
+3. In **Redirect URI**, paste this exactly and click **Add**:
    ```
    http://127.0.0.1:8888/callback
    ```
-4. Under **Which API/SDKs are you planning to use?** tick **Web API**.
+4. Under **Which API/SDKs are you planning to use?**, tick **Web API**.
 5. Accept the terms and click **Save**.
 6. Open your new app's **Settings**, copy the **Client ID** and paste it into the app. It logs you in automatically.
 
-Play a song in Spotify and the lyrics appear. 🎉
+Play a song in Spotify and the lyrics will show up.
 
-## 🕹️ How to use
+## How to use
 
-**Tray icon:** click it to open settings, right-click for the quick menu (presets, lock, show/hide, quit).
+Click the tray icon to open the settings. Right-click it for the quick menu (presets, lock, show/hide, quit).
 
-**Moving the window:** while it's unlocked (dashed frame) drag it with the mouse and resize by dragging the edges. Or use the **Position** tab for exact numbers and a 9-spot quick placement. When you're done, lock it with `Ctrl+Alt+L`.
+To move the window, unlock it first (you'll see a dashed frame). Then drag it with the mouse and resize it by dragging the edges. You can also use the **Position** tab for exact numbers and a 9-spot quick placement. When you're done, lock it again with `Ctrl+Alt+L`.
 
-### ⌨️ Hotkeys
+### Hotkeys
 
 | Shortcut | Action |
 |---|---|
@@ -91,11 +84,11 @@ Play a song in Spotify and the lyrics appear. 🎉
 | `Ctrl+Alt+←` / `→` | Lyrics later / earlier by 250 ms |
 | `Ctrl+Alt+Q` | Quit |
 
-### 🎛️ Presets and auto-switching
+### Presets and auto-switching
 
-A preset remembers the window position, size and the whole look. Everything you change is saved into the active preset.
+A preset remembers the window position, the size and the whole look. Anything you change is saved into the active preset.
 
-In **Switch when active** you can enter, separated by commas:
+In **Switch when active** you can enter these, separated by commas:
 
 | Value | Meaning |
 |---|---|
@@ -103,68 +96,68 @@ In **Switch when active** you can enter, separated by commas:
 | `desktop` | the Windows desktop |
 | `title:YouTube` | text in the window title (browser tabs, Store apps) |
 
-Don't want to type? Click **+ Last window** or **+ Desktop** and it fills it in for you. When you leave to a window with no preset, your previous preset comes back.
+If you don't want to type, click **+ Last window** or **+ Desktop** and it fills it in for you. When you switch to a window that has no preset, your previous preset comes back.
 
-Turn on **Hide text in windows that have no preset** (General tab, on by default) and the lyrics only show where you want them.
+You can also turn on **Hide text in windows that have no preset** (General tab, on by default). Then the lyrics only show up where you want them.
 
-### 🔤 Custom fonts
+### Custom fonts
 
-Appearance tab → **Import font…**. Your fonts appear under **My fonts**.
+Go to the Appearance tab and click **Import font…**. Your fonts show up under **My fonts**.
 
-## ❓ FAQ & troubleshooting
+## FAQ and troubleshooting
 
 <details>
-<summary><b>Do I need Spotify Premium?</b></summary>
+<summary>Do I need Spotify Premium?</summary>
 
-No. Free and Premium both work.
+No, it works with both Free and Premium.
 </details>
 
 <details>
-<summary><b>I get error 403</b></summary>
+<summary>I get error 403</summary>
 
-In your app on the Spotify Developer Dashboard, open **User Management** and add your own Spotify account (name and email). Then log out and in again in Settings → General.
+Open your app in the Spotify Developer Dashboard, go to **User Management** and add your own Spotify account (name and email). Then log out and back in under Settings → General.
 </details>
 
 <details>
-<summary><b>Login does nothing / "Port 8888 cannot be opened"</b></summary>
+<summary>Login does nothing / "Port 8888 cannot be opened"</summary>
 
 Another program is using port 8888. Close it and click **Log in again**.
 </details>
 
 <details>
-<summary><b>"No synced lyrics for this song"</b></summary>
+<summary>"No synced lyrics for this song"</summary>
 
-Lyrics come from the free community database [LRCLIB](https://lrclib.net), which doesn't have every song yet. Anyone can add missing lyrics there.
+The lyrics come from [LRCLIB](https://lrclib.net), a free community database, and it doesn't have every song yet. Anyone can add missing lyrics there.
 </details>
 
 <details>
-<summary><b>The lyrics are a little early or late</b></summary>
+<summary>The lyrics are a little early or late</summary>
 
-Use `Ctrl+Alt+←` / `→` (250 ms per press), or set the offset in Settings → General.
+Press `Ctrl+Alt+←` / `→` (250 ms per press), or set the offset in Settings → General.
 </details>
 
 <details>
-<summary><b>It doesn't show in my game</b></summary>
+<summary>It doesn't show in my game</summary>
 
-Games in *exclusive fullscreen* can't show overlays. Switch the game to **windowed** or **borderless** mode.
+Games in exclusive fullscreen can't show overlays. Switch the game to windowed or borderless mode.
 </details>
 
 <details>
-<summary><b>How do I uninstall it?</b></summary>
+<summary>How do I uninstall it?</summary>
 
-Settings → General → **Uninstall**. You can also delete your settings and Spotify login there. The normal Windows "Apps" list works too.
+Go to Settings → General → **Uninstall**. You can also delete your settings and Spotify login from there. The normal Windows "Apps" list works too.
 </details>
 
-## 🔒 Privacy
+## Privacy
 
-- The app only talks to **Spotify** (to see which song is playing) and **LRCLIB** (to get lyrics).
-- No accounts, no tracking, no data sent to me or anyone else.
+- The app only talks to Spotify (to see which song is playing) and LRCLIB (to get the lyrics).
+- There are no accounts and no tracking, and no data is sent to me or anyone else.
 - Your settings and login token stay on your PC in `%APPDATA%\spotify-lyrics-overlay\`.
-- It uses the official Spotify login (PKCE), so your Spotify password is never seen by the app.
+- It uses the official Spotify login (PKCE), so the app never sees your Spotify password.
 
-## 💬 Feedback
+## Feedback
 
-Found a bug or have an idea? Open an [Issue](https://github.com/Dragouncz/spotify-lyrics-overlay/issues). If you report a bug, include the last lines of `%APPDATA%\spotify-lyrics-overlay\log.txt` (remove anything private).
+Found a bug or have an idea? Open an [issue](https://github.com/Dragouncz/spotify-lyrics-overlay/issues). If you're reporting a bug, include the last lines of `%APPDATA%\spotify-lyrics-overlay\log.txt` (remove anything private first).
 
 ---
 
